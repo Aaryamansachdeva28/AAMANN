@@ -99,7 +99,6 @@ padding: 10px;
 text-align: center;
 }
 .boxs{
-  overflow: normal;
   display: inline-flex;
   justify-content: space-evenly;
   width: 100%;

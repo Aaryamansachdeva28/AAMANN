@@ -129,7 +129,7 @@ text-align: left;
   -ms-transform: translate(0%, -50%)
 }
 .slider-button:hover {
-color: Irgb(176, 255, 169);
+color: white;
 }
 .display-left {
 left: 0%;

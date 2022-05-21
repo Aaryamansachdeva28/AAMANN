@@ -154,7 +154,6 @@ text-align: left;
   z-index: 1 
 
 }
-/* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
   width: 100%;
   padding: 12px;
@@ -164,13 +163,11 @@ input[type=text], select, textarea{
   resize: vertical;
 }
 
-/* Style the label to display next to the inputs */
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
 
-/* Style the submit button */
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
@@ -181,42 +178,37 @@ input[type=submit] {
   float: right;
 }
 
-/* Style the container */
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
 }
 
-/* Floating column for labels: 25% width */
 .col-25 {
   float: left;
   width: 25%;
   margin-top: 6px;
 }
 
-/* Floating column for inputs: 75% width */
+
 .col-75 {
   float: left;
   width: 75%;
   margin-top: 6px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
-/* Chat containers */
 .tainer {
   border: 2px solid blue;
   background-color: lightblue;
@@ -227,14 +219,12 @@ input[type=submit] {
   font-size: 22px;  
 }
 
-/* Darker chat container */
 .darker {
   border-color: green;
   background-color: lightgreen;
   text-align: right;
 }
 
-/* Clear floats */
 .tainer::after {
   content: "";
   clear: both;
@@ -242,7 +232,6 @@ input[type=submit] {
   text-align: center; 
 }
 
-/* Style images */
 .tainer img {
   float: left;
   max-width: 90px;
@@ -251,20 +240,17 @@ input[type=submit] {
   border-radius: 10%;
 }
 
-/* Style the right image */
 .tainer img.right {
   float: right;
   margin-left: 20px;
   margin-right:0;
 }
 
-/* Style time text */
 .time-right {
   float: right;
   color: #000;
 }
 
-/* Style time text */
 .time-left {
   float: left;
   color: #000;
@@ -277,11 +263,19 @@ input[type=submit] {
   position: relative;
   z-index: 1 
 
-}@media(max-width: 375px) {
+}@media(max-width: 400px) {
   .header {
     font-size: 14px;
     padding:120px;
     text-align: center;}
+  
+  .header h2{
+    font-size: 24px;
+  }
+
+  .header p{
+    font-size: 15px;
+  }
     
   #navbar{
     width: 100%;
@@ -310,3 +304,12 @@ input[type=submit] {
   }
   
 }
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .header h2 {
+    font-size: 30px;
+    text-align: center;}
+
+    .header p{
+      font-size: 20px;
+    }
+  }
