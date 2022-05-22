@@ -138,7 +138,7 @@ padding-top: 30px;
   padding-right: 0px;
 }
     
-@media(max-width: 375px) {
+@media(max-width: 415px) {
   .header {
     font-size: 14px;
     padding:120px;
